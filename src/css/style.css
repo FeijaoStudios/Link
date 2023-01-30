@@ -26,10 +26,6 @@ h1, p, body, button {
     margin: 0;
 }
 
-i {
-    font-size: 28px;
-}
-
 header {
     margin-top: 50px;
     display: flex;
@@ -92,7 +88,7 @@ section {
     transform: translateY(-2px);
 }
 
-.link i {
+.link img {
     margin-right: 7px;
 }
 
