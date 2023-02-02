@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 :root {
-    --red: #FF0030;
-    --blue: #01c6dc;
-    --background: black;
-    --white: #ffffff;
+    --red: #0143dc;
+    --blue: #ce0f23;
+    --background: #c8c8c8;
+    --white: black;
 
     --profile-photo-size: 120px;
 
     font-family: 'Roboto', sans-serif;
+}
+
+.dark-mode:root {
+    --red: #FF0030;
+    --blue: #01c6dc;
+    --background: black;
+    --white: white;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    height: 50px;
 }
 
 body {
@@ -66,7 +80,7 @@ section {
 
 .link {
     background: var(--red);
-    color: var(--white);
+    color: white;
     text-decoration: none;
     margin-top: 30px;
     height: 50px;
